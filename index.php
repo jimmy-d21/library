@@ -18,10 +18,10 @@
 
       <div class="space-y-4 mb-6">
         <div>
-          <label class="block text-sm font-medium text-gray-600 mb-1">Email</label>
+          <label class="block text-sm font-medium text-gray-600 mb-1">Username</label>
           <input
-            type="email"
-            placeholder="you@example.com"
+            type="text"
+            placeholder="Enter your username"
             class="w-full border border-gray-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-transparent"
           >
         </div>
@@ -42,7 +42,7 @@
 
       <p class="text-sm text-gray-600 text-center">
         Don’t have an account?
-        <a href="#" class="text-green-500 font-semibold hover:underline">Register now</a>
+        <a href="/library/register.php" class="text-green-500 font-semibold hover:underline">Register now</a>
       </p>
     </div>
 
